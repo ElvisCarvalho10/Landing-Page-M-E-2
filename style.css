@@ -224,7 +224,7 @@ footer {
 }
 
 
-@media (max-width:800px) {
+@media ( max-width:800px ) {
     .container-header {
         background-image: none;
         background-color: #E8D5C8;
@@ -259,15 +259,9 @@ footer {
         width: 100%;
         font-size: 18px;
     }
-    .products-background {
-       
-    }
+   
     .produtos-title {
         font-size: 40px;
-    }
-
-    .produtos {
-
     }
 
     .line-1 {
