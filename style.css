@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+
+}
+
+.container {
+    width: 100vw;
+
+}
+
+
+
+/*---- HEADER */
+
+
+
+.container-header {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/Background.png);
+    background-size: 100vw 100vh;
+
+
+}
+
+
+header {
+    color: #57a695;
+    display: inline-block;
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 70px;
+    width: 50%;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 12px;
+    cursor: pointer;
+
+}
+
+main {
+    position: absolute;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 180px;
+
+}
+
+
+h2 {
+    color: #545454;
+    font-size: 100px;
+}
+
+
+.paragrafo-header {
+    color: #545454;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+button {
+
+    font-size: 15px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 35px;
+    color: #fff;
+    background-color: #57a695;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #57a695;
+    background-color: #fff;
+    border: 2px solid #57a695;
+    transition: 0.5s;
+}
+
+button:active {
+    background-color: rgb(236, 236, 236);
+}
+
+
+
+/* ----CONTEUDO---- */
+
+
+
+.about-background {
+    width: 100vw;
+    height: 70vh;
+    background-color: #57a695;
+
+
+}
+
+h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 61.3px;
+    padding-top: 20px;
+
+
+
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    width: 70vw;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: #fff;
+}
+
+
+
+.left-info {
+    width: 750px;
+    font-size: 25px;
+    padding-top: 80px;
+    font-weight: 200;
+}
+
+.products-background {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E8D5C8;
+}
+
+
+.produtos-title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 61.3px;
+    padding-top: 20px;
+    color: #545454;
+}
+
+.produtos {
+    color: #545454;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.line-1 {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.line-2 {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+/*---- FOOTER ----*/
+
+
+footer {
+    width: 100vw;
+    height: 30vh;
+    background-color: #1C7965;
+}
+
+.localizacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.loc-text {
+    color: #fff;
+    margin-bottom: 5px;
+}
+.copy {
+    padding-top: 15px;
+    color: rgb(182, 182, 182);
+   
+    
+}
