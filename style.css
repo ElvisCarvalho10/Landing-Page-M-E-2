@@ -227,7 +227,7 @@ footer {
 @media ( max-width:800px ) {
     .container-header {
         background-image: none;
-        background-color: #E8D5C8;
+        background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     }
 
     header {
